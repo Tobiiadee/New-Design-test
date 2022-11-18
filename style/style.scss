@@ -1,6 +1,7 @@
 @import "./navSection";
 @import "./headerSection";
 @import "./baseSection";
+@import "./mediaQ1";
 
 *,
 *::before,
@@ -14,6 +15,7 @@
 
 body {
     position: relative;
+    overflow: hidden;
 }
 
 aside {

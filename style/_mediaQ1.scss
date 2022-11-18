@@ -1,0 +1,57 @@
+@media (max-width: 500px) {
+    
+    .nav-title {
+        display: flex;
+
+        .anchor {
+            all: unset !important;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .main {
+        all: unset !important;
+        display: flex;
+
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .header {
+
+        .date {
+            display: none;
+        }
+    }
+
+    .down-section {
+        display: block !important;
+
+        .main {
+            all: unset !important;
+            width: 80%;
+            
+            h3, h1 {
+                text-align: center;
+            }
+
+
+            h1 {
+                font-size: 4rem;
+                width: 100%;
+
+                margin-top: 2rem;
+            }
+
+            .basebtn {
+                margin: 5rem auto;
+            }
+        }
+    }
+}

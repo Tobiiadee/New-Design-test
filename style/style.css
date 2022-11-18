@@ -157,6 +157,47 @@ section nav .main h2 {
   transform: scale(1);
 }
 
+@media (max-width: 500px) {
+  .nav-title {
+    display: flex;
+  }
+  .nav-title .anchor {
+    all: unset !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    all: unset !important;
+    display: flex;
+  }
+  .main h2 {
+    margin-bottom: 1rem;
+  }
+  .main p {
+    margin-bottom: 1rem;
+  }
+  .header .date {
+    display: none;
+  }
+  .down-section {
+    display: block !important;
+  }
+  .down-section .main {
+    all: unset !important;
+    width: 80%;
+  }
+  .down-section .main h3, .down-section .main h1 {
+    text-align: center;
+  }
+  .down-section .main h1 {
+    font-size: 4rem;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .down-section .main .basebtn {
+    margin: 5rem auto;
+  }
+}
 *,
 *::before,
 *::after {
@@ -167,6 +208,7 @@ section nav .main h2 {
 
 body {
   position: relative;
+  overflow: hidden;
 }
 
 aside {
