@@ -1,0 +1,50 @@
+.down-section {
+    height: 100%;
+    display: grid;
+    place-items: center;
+
+
+    a {
+        text-decoration: none;
+    }
+
+    h3 {
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+        width: 35rem;
+        margin-bottom: 1rem;
+        
+        background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    .basebtn {
+        border: 1px solid;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: .5rem 1rem;
+        width: max-content;
+
+        border-radius: 20px;
+
+        .fa {
+            font-size: 1.3rem;
+
+            transform: scale(.7);
+            transition: transform 350ms ease-in-out;
+
+        }
+
+        &:hover .fa {
+            transform: scale(1);
+        }
+
+    }
+}
