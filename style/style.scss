@@ -26,13 +26,21 @@ aside {
 
     position: absolute;
     top: 40px;
+
+    transition: 500ms ease-in-out;
 }
 
-.arrow-up {
-    transform: rotateY(180deg);
+.rotate {
+    transform: rotate(180deg);
+    transition: transform 500ms ease-in-out;
+
 }
 
 .main-up {
     transform: translateY(250px);
+    transition: transform 1s ease-in-out;
+}
+.main-down {
+    transform: translateY(-250px);
     transition: transform 1s ease-in-out;
 }

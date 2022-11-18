@@ -99,31 +99,19 @@ section nav .main h2 {
 .header-container .header .flip-btn span {
   -webkit-animation-name: arrow;
           animation-name: arrow;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
 }
-@-webkit-keyframes arrow {
-  0% {
-    transform: translateY(-40px);
-  }
-  50% {
-    transform: translateY(0);
-  }
+.header-container .header .flip-btn .none {
+  display: block;
+  transition: 500ms;
 }
-@keyframes arrow {
-  0% {
-    transform: translateY(-40px);
-  }
-  50% {
-    transform: translateY(0);
-  }
-}
+@-webkit-keyframes arrow {}
+@keyframes arrow {}
 .header-container .header .flip-btn:hover span {
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
@@ -189,13 +177,20 @@ aside {
   padding-bottom: 9rem;
   position: absolute;
   top: 40px;
+  transition: 500ms ease-in-out;
 }
 
-.arrow-up {
-  transform: rotateY(180deg);
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 500ms ease-in-out;
 }
 
 .main-up {
   transform: translateY(250px);
+  transition: transform 1s ease-in-out;
+}
+
+.main-down {
+  transform: translateY(-250px);
   transition: transform 1s ease-in-out;
 }/*# sourceMappingURL=style.css.map */
