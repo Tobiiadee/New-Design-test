@@ -157,7 +157,7 @@ section nav .main h2 {
   transform: scale(1);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   .nav-title {
     display: flex;
   }
@@ -240,7 +240,7 @@ aside {
   transition: transform 1s ease-in-out;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   .main-up {
     transform: translateY(500px);
     transition: transform 1s ease-in-out;
