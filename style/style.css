@@ -166,6 +166,9 @@ section nav .main h2 {
     display: flex;
     flex-direction: column;
   }
+  .navbtn::before {
+    display: none;
+  }
   .main {
     all: unset !important;
     display: flex;
@@ -235,4 +238,15 @@ aside {
 .main-down {
   transform: translateY(-250px);
   transition: transform 1s ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .main-up {
+    transform: translateY(500px);
+    transition: transform 1s ease-in-out;
+  }
+  .main-down {
+    transform: translateY(-250px);
+    transition: transform 1s ease-in-out;
+  }
 }/*# sourceMappingURL=style.css.map */

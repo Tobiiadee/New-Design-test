@@ -20,7 +20,7 @@ flipBtn.addEventListener('click', (e) => {
        
         flipArrow.classList.toggle('rotate');
 
-        console.log(flipElement, flipArrow);
+        // console.log(flipElement, flipArrow);
 
 
     }  
@@ -28,7 +28,7 @@ flipBtn.addEventListener('click', (e) => {
     else {
         flipArrow.classList.toggle('rotate');
 
-        console.log(flipElement, flipArrow);
+        // console.log(flipElement, flipArrow);
 
     }
 });

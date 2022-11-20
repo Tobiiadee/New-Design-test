@@ -46,3 +46,14 @@ aside {
     transform: translateY(-250px);
     transition: transform 1s ease-in-out;
 }
+
+@media (max-width: 500px) {
+    .main-up {
+        transform: translateY(500px);
+        transition: transform 1s ease-in-out;
+    }
+    .main-down {
+        transform: translateY(-250px);
+        transition: transform 1s ease-in-out;
+    }
+}

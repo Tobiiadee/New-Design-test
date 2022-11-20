@@ -10,6 +10,10 @@
         }
     }
 
+    .navbtn::before {
+      display: none;
+    }
+
     .main {
         all: unset !important;
         display: flex;
