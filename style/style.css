@@ -158,9 +158,6 @@ section nav .main h2 {
 }
 
 @media (max-width: 720px) {
-  body {
-    overflow: hidden;
-  }
   .nav-title {
     display: flex;
   }
