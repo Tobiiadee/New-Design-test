@@ -108,7 +108,7 @@ section nav .main h2 {
 }
 .header-container .header .flip-btn .none {
   display: block;
-  transition: 500ms;
+  transition: 1s;
 }
 @-webkit-keyframes arrow {}
 @keyframes arrow {}
